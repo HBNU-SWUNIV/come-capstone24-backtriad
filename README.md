@@ -22,9 +22,9 @@
   
 ## System Design
 
+ - ### LOGO
 <div align=center><img src="coiincat.png" height=300></div>
 
-  # <center>LOGO</center>  
 
   - ### 기술스택
     - Deploy
