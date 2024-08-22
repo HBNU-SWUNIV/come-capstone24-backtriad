@@ -21,7 +21,31 @@
     - 기존 주식시장보다 변동성이 더욱 강한 암호화폐 시장에서 감정을 억누르고 객관적으로 투자한다는 것은 어려운 일이다. 프로그램을 통한 자동매매 시스템은 감정을 배제하고 철저하게 데이터를 기반으로 한 매매를 수행하기 때문에 투자의 일관성, 정확성을 보장한다.
   
 ## System Design
-  - ### System Requirements
+
+<div align=center><img src="coiincat.png" height=300></div>
+
+  # <center>LOGO</center>  
+
+  - ### 기술스택
+    - Deploy
+      - <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+
+    - OS
+      - <img src="https://img.shields.io/badge/amazonwebservices-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"> <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+    - Front
+      - <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=pm2&logoColor=black"> <img src="https://img.shields.io/badge/pm2-2B037A?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=black">
+
+    - Back
+      - <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    - DB
+      - <img src="https://img.shields.io/badge/amazonrds-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+    - AI
+      - <img src="https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"> <img src="https://img.shields.io/badge/keras-D00000?style=for-the-badge&logo=keras&logoColor=white"> <img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
+
+
+
+
+  - ### System Structures
     - Web Application Server
       - AWS Linux
         - Backend
@@ -46,3 +70,5 @@
   
 ## Project Outcome
 - ### 2024년 공개SW 개발자대회
+
+
