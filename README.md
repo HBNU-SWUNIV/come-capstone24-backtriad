@@ -40,28 +40,35 @@
   
 ## System Design
 
-  - ### System Structures
+  - ### Structures
+  - <div align=center><img src="project_structure.png" height=500></div>
+  
     - Web Application Server
-      - AWS Linux
-        - Backend
-          - SpringBoot
-        - Frontend
-          - React
+        - AWS Linux
+          - Backend
+            - SpringBoot
+          - Frontend
+            - React
     - Database Server
       - AWS RDS
         - MySQL
 
+  - ### Flow Chart
+  - <div align=center><img src="project_flowchart.png" height=500></div>
+  
 ## Running
   - http://3.35.17.231:3000/
-  ![alt text](image.png)
+  <div align=center><img src="home.png" height=500></div>
   
 ## Conclusion
   - ### 웹사이트를 통한 전략 백테스팅
     - 원하는 날짜, 전략, 파라미터를 지정 후 백테스트 결과를 확인 가능
-    - ![alt text](image-1.png)
+    <div align=center><img src="backtest.png" height=500></div>
+    <div align=center><img src="backtest_result.png" height=520></div>
   - ### 웹사이트를 통한 모의투자/트레이딩 시스템
     - 원하는 전략을 지정 후 모의투자/트레이딩 진행 및 그 결과 확인 가능
-    - ![alt text](image-2.png)
+    <div align=center><img src="simtrade.png" height=500></div>
+    <div align=center><img src="simtrade_result.png" height=500></div>
   
 ## Project Outcome
 - ### 2024년 공개SW 개발자대회
