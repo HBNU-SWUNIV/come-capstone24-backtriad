@@ -57,18 +57,21 @@
   - <div align=center><img src="project_flowchart.png" height=500></div>
   
 ## Running
-  - http://3.35.17.231:3000/
+  - http://coinaitrader.site/
   <div align=center><img src="home.png" height=500></div>
   
 ## Conclusion
-  - ### 웹사이트를 통한 전략 백테스팅
-    - 원하는 날짜, 전략, 파라미터를 지정 후 백테스트 결과를 확인 가능
-    <div align=center><img src="backtest.png" height=500></div>
-    <div align=center><img src="backtest_result.png" height=520></div>
-  - ### 웹사이트를 통한 모의투자/트레이딩 시스템
-    - 원하는 전략을 지정 후 모의투자/트레이딩 진행 및 그 결과 확인 가능
-    <div align=center><img src="simtrade.png" height=500></div>
-    <div align=center><img src="simtrade_result.png" height=500></div>
+  1. 회원가입, 로그인
+     <div align=center><img src="signup.png" height=500></div>
+  2. 투자 기능 사용  
+     1. 백테스팅  
+     <div align=center><img src="backtest.png" height=300></div>
+     <div align=center><img src="backtest_result.png" height=377></div>
+     2. 모의 투자
+     <div align=center><img src="simtrade.png" height=500></div>
+     <div align=center><img src="simtrade_result.png" height=318></div>
+     3. 자동 매매
+     <div align=center><img src="simtrade.png" height=500></div>
   
 ## Project Outcome
 - ### 2024년 공개SW 개발자대회

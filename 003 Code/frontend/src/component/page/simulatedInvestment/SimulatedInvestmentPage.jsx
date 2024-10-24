@@ -193,7 +193,7 @@ function SimulatedInvestmentPage() {
 
     // 실행 버튼 클릭 시
     const handleExecute = () => {
-        axios.post("http://3.35.17.231:8080/api/simulatedinvestments",{
+        axios.post("http://3.35.65.112:8080/api/simulatedinvestments",{
             username: username,
             strategy: selectedStrategy,
             capital: capital,
@@ -215,7 +215,7 @@ function SimulatedInvestmentPage() {
     };
 
     const handleExit = () => {
-        axios.post("http://3.35.17.231:8080/api/siexit",{
+        axios.post("http://3.35.65.112:8080/api/siexit",{
             username: username,
             strategy: selectedStrategy
         })
@@ -236,7 +236,7 @@ function SimulatedInvestmentPage() {
 
     const reloadButton = () => {
         if (username !== "") {
-            axios.post("http://3.35.17.231:8080/api/getdata", {
+            axios.post("http://3.35.65.112:8080/api/getdata", {
                 username: username,
                 strategy: selectedStrategy
             })
@@ -294,7 +294,7 @@ function SimulatedInvestmentPage() {
 
     useEffect(() => {
         if (username !== "") {
-            axios.post("http://3.35.17.231:8080/api/getdata", {
+            axios.post("http://3.35.65.112:8080/api/getdata", {
                 username: username,
                 strategy: selectedStrategy
             })
@@ -322,6 +322,12 @@ function SimulatedInvestmentPage() {
                     <StrategySelect value={selectedStrategy} onChange={handleStrategyChange}>
                         <option value="">Macd+Rsi_siminvestment</option>
                         <option value="ai">ai_siminvestment</option>
+                        <option value="ai2">ai2_siminvestment</option>
+                        <option value="ai3">ai3_siminvestment</option>
+                        <option value="ai4">ai4_siminvestment</option>
+                        <option value="ai5">ai5_siminvestment</option>
+                        <option value="ai6">ai6_siminvestment</option>
+                        <option value="ai7">ai7_siminvestment</option>
                         <option value="gap">gap_siminvestment</option>
                     </StrategySelect>
                     <ExecuteButton onClick={handleExecute}>실행</ExecuteButton>

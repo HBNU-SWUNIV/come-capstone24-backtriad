@@ -28,6 +28,24 @@ public class User {
     private boolean aisi;
 
     @Column(nullable = false)
+    private boolean ai2si;
+
+    @Column(nullable = false)
+    private boolean ai3si;
+
+    @Column(nullable = false)
+    private boolean ai4si;
+
+    @Column(nullable = false)
+    private boolean ai5si;
+
+    @Column(nullable = false)
+    private boolean ai6si;
+
+    @Column(nullable = false)
+    private boolean ai7si;
+
+    @Column(nullable = false)
     private boolean gapsi;
 
     @Column(nullable = false)
@@ -82,6 +100,14 @@ public class User {
 
     public void setAisi(boolean aisi) { this.aisi = aisi; }
 
+    public boolean isAi2si() {
+        return ai2si;
+    }
+
+    public void setAi2si(boolean ai2si) {
+        this.ai2si = ai2si;
+    }
+
     public boolean isGapsi() { return gapsi; }
 
     public void setGapsi(boolean gapsi) { this.gapsi = gapsi; }
@@ -89,4 +115,44 @@ public class User {
     public boolean isAt() { return at; }
 
     public void setAt(boolean at) { this.at = at; }
+
+    public boolean isAi3si() {
+        return ai3si;
+    }
+
+    public void setAi3si(boolean ai3si) {
+        this.ai3si = ai3si;
+    }
+
+    public boolean isAi4si() {
+        return ai4si;
+    }
+
+    public void setAi4si(boolean ai4si) {
+        this.ai4si = ai4si;
+    }
+
+    public boolean isAi5si() {
+        return ai5si;
+    }
+
+    public void setAi5si(boolean ai5si) {
+        this.ai5si = ai5si;
+    }
+
+    public boolean isAi6si() {
+        return ai6si;
+    }
+
+    public void setAi6si(boolean ai6si) {
+        this.ai6si = ai6si;
+    }
+
+    public boolean isAi7si() {
+        return ai7si;
+    }
+
+    public void setAi7si(boolean ai7si) {
+        this.ai7si = ai7si;
+    }
 }

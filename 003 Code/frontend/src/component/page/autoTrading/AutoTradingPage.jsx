@@ -106,7 +106,7 @@ function AutoTradingPage() {
     };
 
     const handleExecute = () => {
-        axios.post("http://3.35.17.231:8080/api/autotradings",{
+        axios.post("http://3.35.65.112:8080/api/autotradings",{
             username: username,
             strategy: selectedStrategy,
             orderSize: orderSize,
@@ -125,8 +125,9 @@ function AutoTradingPage() {
     };
 
     const handleExit = () => {
-        axios.post("http://3.35.17.231:8080/api/atexit",{
-            username: username
+        axios.post("http://3.35.65.112:8080/api/atexit",{
+            username: username,
+            strategy: selectedStrategy
         })
             .then(response => {
                 console.log("POST 요청 성공:", response.data);
